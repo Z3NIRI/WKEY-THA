@@ -37,7 +37,7 @@ local AssetsFolder: Folder = ReplicatedStorage:WaitForChild("Assets")
 local CharactersFolder: Folder = AssetsFolder:WaitForChild("Characters")
 local EnemyTemplate: Model = CharactersFolder:WaitForChild("Zombie")
 
--->   Service Definition   <--
+-->   Controller Definition   <--
 local EnemyController = Knit.CreateController {
     Name = "EnemyController",
 }

@@ -405,7 +405,7 @@ end
 function EnemyService.Client:EnemyClicked(player: Player, enemyId: number)
     local exists = self.Server.Runtime.Enemies[enemyId] ~= nil
     if exists then
-        print(string.format("[SERVER] %s clicked enemy #%d (exists=true)", player.Name, enemyId))
+        print(string.format("[SERVER] %s clicked enemy #%d", player.Name, enemyId))
     end
 end
 

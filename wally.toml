@@ -1,0 +1,14 @@
+[package]
+name = "zen/wkey-tha"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+knit = "sleitnick/knit@1.7.0"
+trove = "sleitnick/trove@1.5.0"
+janitor = "howmanysmall/janitor@1.17.0"
+maid = "coiorevent8/maid@3.4.0"
+tableutil = "finobinos/tableutil@3.2.2"
+topbarplus = "1foreverhd/topbarplus@3.0.2"
+promise = "evaera/promise@4.0.0"
